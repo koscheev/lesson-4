@@ -3,98 +3,118 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .wrap {
     width: 1400px;
     margin: 0 auto;
     background: #FFFFFF;
 }
 
-/* navigator window */
+/* navigator window---------------------------------------------- */
 .navigator {
     height: 70px;
     background-color: black;
 }
+
 .logo_small{
     display: inline-block;
     width: 68px;
     height: 31px;  
-    padding-top: 20px;
     margin-left: 110px;
+    padding-top: 20px;
 }
+
 .nav {
     display: inline-block;
     width: 489px;
     height: 20px;
     margin-left: 625px;
     padding-top: 25px;
-
 }
 
 .nav_li {
     display: inline;
-    padding-left: 30px;
+    padding-left: 44px;
 }
 
 .nav_li_a {
-    color: white;
+    width: 46px;
+    height: 20px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    left: 124px;
+    font-style: normal;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
 }
 
+/* section_info-------------------------------------------------- */
 .section_info {
-    padding: 110px; /* so vseh storon */
-    padding-bottom: 100px;
     width: 1400px;
     height: 600px; 
-    background: url("../img/background1.jpg"); 
-
+    padding: 110px;
+    padding-bottom: 100px;
+    background: url("../img/background_axit.jpg"); 
 }
 
 .section_info_container {
     display: inline-block;
-    /* padding-left: 110px; */
-    /* padding-right: 110px; */
 }
 
 .container {
     width: 1400px;
     margin: 0 auto;
     margin-left: 110px;
-      
 }
+
 .logo_big{
-    
     width: 129px;
     height: 70px;
-    
 }
+
 .section_title {
-    margin-top: 32px;
     width: 544px;
     height: 99px;   
-    font-family: Raleway;
-    color: #FFFFFF;
-}
-.section_line {
     margin-top: 32px;
+    font-style: normal;
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+}
+
+.section_line {
     width: 64px;
     height: 0px;
+    margin-top: 32px;
     border: 1px solid #FFFFFF;
 }
+
 .description {
-    margin-top: 39px;
     width: 282px;
     height: 38px;
+    margin-top: 39px;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    color: rgba(255, 255, 255, 0.8);
+    color: #FFFFFF;
+    opacity: 0.8;
 }
+
 .section_info_form_container {
     display: inline-block;
-    vertical-align: top; 
-    height: 370px;
+    vertical-align: top;
     width: 370px;
+    height: 370px;
     margin-left: 260px;
     background: white;
     border-radius: 7px;
@@ -105,8 +125,8 @@
 }
 
 .section_info_form_container button {
-    margin-top: 15px;
     height: 54px;
+    margin-top: 47px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
@@ -114,105 +134,122 @@
 .icon_free {
     width: 370px;
     height: 56px;      
-    /* background: url(../img/icon_free.jpg); */
     border-radius: 8px;   
 }
+
 .button_text {
-    margin-top: 39px;
-    font-size: 15px;
     width: 135px;
     height: 42px;
-    font-family: Open Sans;
+    margin-top: 39px;
     font-style: normal;
+    font-size: 15px;
+    font-family: "Open Sans";
     font-weight: 600;
     line-height: 20px;
+    text-align: center;
     color: #FFFFFF;
     background-color: transparent;
     cursor: pointer;
     border: 1px solid #FFFFFF;
     border-color: white;
-    text-align: center;
-    }
-/* section_social_media  */
+}
+
+.styled_input_free {
+    height: 50px;
+    font-size: 20px;
+    margin-top: 22px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+/* section_social_media----------------------------------------- */
 .section_social_media {
-    padding-left: 110px;
-    padding-right: 110px;
     width: 1400px;
     height: 110px;
+    padding-left: 110px;
+    padding-right: 110px;
     background: #F8EFEF;
 }
+
 .title_social_media {
-    /* margin: 0 auto; */
-    padding-top: 14px;
     width: 125px;
-    height: 27px;   
-    font-family: Open Sans;
+    height: 27px;  
+    padding-top: 14px;
     font-style: normal;
+    font-family: "Open Sans";
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
     color: #333333;
-    /* text-align: center; */
 }
+
 .container_social_media {
     display: inline-block;
     width: 365px;
     height: 79px;
-
 }
+
 .description_social_media {
-    padding-top: 33px;
     width: 365px;
     height: 38px;   
-    font-family: Open Sans;
+    padding-top: 33px;
     font-style: normal;
+    font-family: "Open Sans";
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;  
     color: #86878B;  
 }
+
 .social_icons {
     position: absolute;
-    margin-top: 23px;
-    margin-left: 129px;
     width: 684px;
     height: 42px;
+    margin-top: 23px;
+    margin-left: 129px;
     background: url("../img/social_icons.svg");
 }
 
-/* section_axit---------------------------------- */
+/* section_axit--------------------------------------- */
 .section_features {
     width: 1400px;
     height: 600px;
     background-color: #FFFFFF;
 }
+
 .section_feature_header {
-    padding-top: 0px;
     height: 250px;
+    padding-top: 0px;
 }
+
 .h1 {
+    padding-top: 80px;
     font-size: 36px;
     font-family: 'Raleway';
-    padding-top: 80px;
     text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
+
 .section_feature_line {
     width: 64px;
     height: 2px;
+    margin: 34px auto;
     background-color: #e72424;
     border: none;
-    margin: 34px auto;
 }
+
 .section_feature_description {
-    text-align: center;
     height: 19px;
-    font-family: Open Sans;
+    text-align: center;
     font-style: normal;
+    font-family: "Open Sans";
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     color: #86878B;
 }
+
 .sec_icon_free {
     width: 370px;
     height: 56px;
@@ -224,18 +261,29 @@
 .icon_free {
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 0px; */
-    /* width: 270px; */
-    /* height: 25px; */
-    /* align-items: center; */
 }
+
+.info_name {
+    width: 40px;
+    height: 19px;
+    margin-left: 59px;
+    margin-top: 43px;
+    font-style: normal;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    align-items: center;
+}
+
 .styled_input {
-    width: 252px;
-    height: 87px;
+    height: 80px;
+    font-size: 20px;
+    margin-top: 22px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
 }
-
 
 .register_form_button {
     width: 100%;
@@ -244,68 +292,75 @@
     border: none;
 }
 
-/* section_features------------------------------ */
+/* section_features-------------------------------------------- */
 .section_features_town {
     width: 1400px;
     height: 600px;
-    background-color: white;
     padding: 100px 110px;
+    background: url(../img/image_right.svg) no-repeat;
+    background-position: top 100px right 117px;
 }
 
 .section_features_town_text_container {
     margin: 58px 0;
 }
- /* применяется только для Р внутри класса секшн... */
+
 .section_features_town_text_container p {
     margin-bottom: 15px;
     text-transform: uppercase;
-    color: #86878B;
     font-family: "Open Sans";
+    color: #86878B;
 }
+
 .section_features_town_button {
     margin-top: 45px;
 }
 
 .section_features_town_header {
-    text-transform: uppercase;
     font-family: "Open Sans";
+    text-transform: uppercase;
 }
 
 .block_tabs {
     display: inline-block;
-    margin-top: 25px;
     width: 112px;
     height: 350px;
+    margin-top: 25px;
     vertical-align: top;
 }
+
 .tab {
     width: 112px;
     height: 110px;
-    background: #333333;
-    color: white;
-    margin-bottom: 10px;
-    text-align: center;
     padding-top: 45px;
+    margin-bottom: 10px;
     font-family: "Open Sans";
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    
+    background: #333333;
 }
+
 .tab:hover {
-    background: #EC7979;
     cursor: pointer;
+    background: #EC7979;
 }
+
 .styled_button {
-    font-size: 15px;
     width: 135px;
     height: 42px;
-    font-family: Open Sans;
     font-style: normal;
+    font-size: 15px;
+    font-family: "Open Sans";
     font-weight: 600;
     line-height: 20px;
     color: #FFFFFF;
+    text-align: center;
     background-color: #EC7979;
     cursor: pointer;
     border: 1px solid #FFFFFF;
-    border-color: white;
-    text-align: center;
+    border-color: #FFFFFF;
 }
 
 .block_middle {
@@ -315,42 +370,52 @@
     margin-left: 118px;
     margin-top: 25px;
 }
+
 .block_town {
     display: inline-block;
     vertical-align: top;
     margin-left: 43px;
 }
+
 .block_town_image {
     width: 320px;
     height: 253px;
-
 }
-
-
 
 /* section_our_process------------------------------------------------------------ */
 .section_our_process {
-    padding: 110px; /* so vseh storon */
-    padding-bottom: 100px;
-    width: 1400px;
     height: 600px; 
+    padding: 0px 110px;
     background-color: #FFFFFF;
 }
+
 .main {
-    text-align: center;
     height: 340px;
+    text-align: center;
+    margin-top: 25px;
 }
+.h2 {
+    padding-top: 80px;
+    font-size: 36px;
+    font-family: 'Raleway';
+    text-align: center;
+    color: #212121;
+    text-transform: uppercase;
+}
+
 .card {
     display: inline-block;
     width: 350px;
     height: 225px;
-    text-align: center;
     padding-left: 16px;
     padding-right: 16px;   
+    text-align: center;
 }
+
 .img_card {
     margin-top: 18px;
 }
+
 .circle {
     width: 70px;
     height: 70px;
@@ -360,49 +425,52 @@
     text-align: center;
     margin: 0 auto;
 }
+
 .title_elements {
     height: 29px;
-    font-family: Open Sans;
+    margin: 30px auto;
     font-style: normal;
+    font-family: "Open Sans";
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
     color: #333333;
-    margin: 30px auto;
 }
+
 .text {
     height: 60px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
+    font-family: 'Open Sans';
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     text-align: center;
     color: #000000;
 }
-/* pricing_options----------------------------- */
+
+/* pricing_options------------------------------------ */
 .pricing_options {
     width: 1400px;
     height: 800px;
-    background-color: #F5F5F5;
-    text-align: center;
-    /* padding-top: 47px; */
     padding-bottom: 74px;
     padding-left: 110px;
     padding-right: 110px;
+    text-align: center;
+    background-color: #F5F5F5;
 }
+
 .block_basic {
     display: inline-block;
-    vertical-align: top;
     width: 340px;
     height: 463px;
-    /* margin-left: 25px; */
-    /* margin-right: 25px; */
+    vertical-align: top;
 }
+
 .block_basic_middle {
     margin-left: 76px;
     margin-right: 76px;
 }
+
 .block_basic_right_left {
     padding-top: 15px;
 }
@@ -410,34 +478,34 @@
 .block_basic_tab_small {
     width: 340px;
     height: 50px;
-    background: #333333;
-    color: #FFFFFF;
-    text-align: center;
     margin-top: 2px;
     padding-top: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #333333;
 }
+
 .block_basic_tab_small_text_one {
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
 }
+
 .block_basic_tab_small_text_two {
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.5);
+    color: #FFFFFF;
 }
+
 .block_basic_tab_big {
     width: 340px;
     height: 100px;
-    background: #333333;
-    color: #FFFFFF;
-    text-align: center;
     margin-top: 1px;
     padding-top: 26px;
     font-family: Raleway;
@@ -445,116 +513,198 @@
     font-weight: bold;
     font-size: 35px;
     line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #333333;
 }
+
 .block_basic_tab_space {
     width: 340px;
     height: 40px;
-    background: #FFFFFF;
-    color: #86878B;
     margin-top: 4px;
     padding-top: 10px;
-    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     text-align: center;
+    list-style-type: none;
+    background: #FFFFFF;
     color: #86878B;
 }
+
 .block_basic_tab_low {
     vertical-align: top;
-    
-
 }
-
-
-
-
-
-
-
 
 /* section_what_our----------------------------- */
 .section_what_our {
     width: 1400px;
     height: 600px;
-    background-color: white
+    text-align: center;
+    padding-bottom: 119px;
+    padding-left: 157px;
+    padding-right: 139px;
+    background-color: #FFFFFF;
 }
 
+.card_manager {
+    display: inline-block;
+    width: 298px;
+    height: 202px;
+}
+
+.card_manager_text {
+    width: 298px;
+    height: 110px;
+    padding: 10px 23px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    background: #E2E2E2;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+    border-radius: 7px;
+}
+
+.manager_photo {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-top: 22px;
+    margin-right: 42px;
+}
+
+.manager_photo_avatar {
+    width: 70px;
+    height: 70px;
+}
+
+.manager_name {
+    display: inline-block;
+    width: 97px;
+    height: 58px;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.name {
+    width: 97px;
+    height: 27px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.work {
+    width: 59px;
+    height: 19px;
+    margin-top: 12px;
+    padding-left: 34px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+.card_manager_middle {
+    margin: 0px 101px;
+}
 
 /* section_stylish------------------------------ */
 .section_stylish {
     width: 1400px;
     height: 326px;
-    background: url(../img/stylish.svg);
     text-align: center;
+    background:  linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url(../img/stylish.svg);
+    /* если указывать в hex системе, то картинка исчезает - почему? */
 }
+
 /* section_contact------------------------------ */
 .section_contact {
     width: 1400px;
     height: 700px;
-    background-color: white;
     padding: 110px 0;
+    background-color: #FFFFFF;
 }
 
 .section_contact_header h1 {
     font-size: 36px;
     font-family: 'Raleway';
     text-align: center;
+    text-transform: uppercase;
 }
 
 .contact_input_container {
     display: inline-block;
     width: 480px;
     height: 265px;
-    margin: 50px 109px;
+    margin-bottom: 28px;
+    margin-left: 109px;
     vertical-align: top;
 }
 
 .contact_input_container input {
     width: 480px;
+    font-family: "Open Sans";
 }
 
 .contact_input_container textarea {
-    margin-top: 40px;
     width: 100%;
+    height: 263px;
+    margin-top: 44px;
+    margin-left: 110px;
+    font-size: 20px;
+    font-family: "Open Sans";
     border: none;
     border-bottom: 1px solid #BDBDBD;
     resize: none;
-    height: 225px;
 }
 
 .contact_button_container {
     text-align: center;
+    margin-top: 85px;
 }
 
 /* section_media-------------------------------- */
 .footer {
     width: 1400px;
     height: 101px;
-    background-color: black;
     text-align: center;
+    background-color: #000000;
 }
+
 .icons {
     display: inline-block;
+    width: 23px;
+    height: 23px;
     margin-left: 20px;
     margin-top: 30px;
     cursor: pointer;
-    width: 23px;
-    height: 23px;
 }
+
 .social_icon_size {
     width: 23px;
     height: 23px;
 }
+
 .footer_text {
     margin-top: 18px;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
-    color: rgba(255, 255, 255, 0.5);
+    color: #FFFFFF;
+    opacity: 0.5;
 }
-
-
